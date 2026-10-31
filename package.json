@@ -1,0 +1,49 @@
+{
+  "name": "agentsensei",
+  "version": "0.1.0",
+  "description": "Your AI coding sensei: reviews your Claude Code and Codex sessions and coaches you to prompt and use AI agents better. 100% local.",
+  "type": "module",
+  "bin": {
+    "agentsensei": "dist/cli.js",
+    "sensei": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test test/review.test.js test/fix.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai",
+    "claude-code",
+    "codex",
+    "prompting",
+    "prompt-engineering",
+    "coding-agent",
+    "developer-tools",
+    "coach",
+    "cli"
+  ],
+  "author": "vrningolli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrningolli/agentsensei.git"
+  },
+  "homepage": "https://github.com/vrningolli/agentsensei#readme",
+  "bugs": {
+    "url": "https://github.com/vrningolli/agentsensei/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.9.0"
+  }
+}

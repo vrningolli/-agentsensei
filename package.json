@@ -1,6 +1,6 @@
 {
   "name": "agentsensei",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your AI coding sensei: reviews your Claude Code and Codex sessions and coaches you to prompt and use AI agents better. 100% local.",
   "type": "module",
   "bin": {

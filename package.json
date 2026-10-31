@@ -36,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vrningolli/agentsensei.git"
+    "url": "git+https://github.com/vrningolli/-agentsensei.git"
   },
-  "homepage": "https://github.com/vrningolli/agentsensei#readme",
+  "homepage": "https://github.com/vrningolli/-agentsensei#readme",
   "bugs": {
-    "url": "https://github.com/vrningolli/agentsensei/issues"
+    "url": "https://github.com/vrningolli/-agentsensei/issues"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
